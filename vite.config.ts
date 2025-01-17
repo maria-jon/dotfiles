@@ -23,14 +23,15 @@ export default defineConfig({
   },
 });
 
-/** -------------- 
+/** ---------------------------------------------------------------------- 
 * Alternativ:
+* ------------------------------------------------------------------------
 */
 
-```ts
+
 import { defineConfig } from 'vite';
 
 export default defineConfig ({
 	'base': '/namn på repo/'
 });
-```
+
