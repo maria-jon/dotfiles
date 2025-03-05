@@ -35,3 +35,16 @@ export default defineConfig ({
 	'base': '/namn på repo/'
 });
 
+
+/** ---------------------------------------------------------------------- 
+* Detta är om man använder sass och vill använda variabler:
+* ------------------------------------------------------------------------
+*/
+
+css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "@/style/_variables.scss";`,
+      },
+    },
+  },
